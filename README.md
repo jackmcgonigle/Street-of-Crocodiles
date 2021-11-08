@@ -1,2 +1,3 @@
 # Bruno
-[Bruno](https://jackmcgonigle.github.io/Bruno/bruno.html)
+
+[Bruno](https://jackmcgonigle.github.io/Bruno/index.html)
