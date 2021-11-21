@@ -10,8 +10,8 @@
 /*-- Main structural styling--*/
 
 body {
-     background: #f7f7f7;
-     color: #333333;
+     background: #333333;
+     color: #f7f7f7;
 }
 
 section , header, footer {
@@ -23,7 +23,7 @@ section , header, footer {
 /*-- Styling typography --*/
 
 h1, h2, blockquote {
-  color: #760071;
+  color: #f7f7f7;
   font-family: fantasy;
   font-family: Baskerville;
 }
@@ -68,14 +68,14 @@ header p {
   font-size: 1.3rem
 }
 
-/*-- styling links --*/
+/*-- styling links, below is bottom links--*/
 a {
-  color: #760071;
+  color: #f7f7f7;
   text-decoration: none
 }
 
 a:hover {
-  color: limegreen;
+  color: #fc8ebf;
   border-bottom: 2px dotted;
 }
 
@@ -85,7 +85,7 @@ nav {
   left: 0;
   margin: 0;
   width: 100%;
-  background: #fff2b0;
+  background: #634F5F;
   padding: 2em 0;
   font-size: 0.75rem;
 }
@@ -101,6 +101,7 @@ nav ul li {
   margin: 20px;
 }
 
+/*--links at top of page --*/
 nav a {
   color: #f7f7f7;
 }
