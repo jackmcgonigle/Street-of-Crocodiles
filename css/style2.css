@@ -115,8 +115,8 @@ nav a:hover {
 hr {
   margin: 100px 0;
   height: 1px;
-  background-color: #4f014c;
-  color: #4f014c;
+  background-color: #f7f7f7;
+  color: #f7f7f7;
   border: 0 none;
 }
 
@@ -129,4 +129,12 @@ footer {
 body {
  background-image: url("https://images.pexels.com/photos/60644/nile-crocodile-crocodylus-niloticus-zoo-60644.jpeg?cs=srgb&dl=pexels-pixabay-60644.jpg&fm=jpg");
  background-color: #cccccc;
+}
+
+.boxed {
+  background-color: #333333;
+  border: 1px solid #333333;
+  opacity: 97%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
