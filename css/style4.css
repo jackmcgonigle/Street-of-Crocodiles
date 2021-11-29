@@ -1,0 +1,152 @@
+/*-- CSS Reset --*/
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  line-height: 1em;
+}
+
+/*-- Main structural styling--*/
+
+body {
+     background: #333333;
+     color: #f7f7f7;
+}
+
+section , header, footer {
+  width: : 80%;
+  max-width: 700px;
+  margin: auto;
+}
+
+/*-- Styling typography --*/
+
+h1, h2, blockquote {
+  color: #f7f7f7;
+  font-family: fantasy;
+  font-family: Baskerville;
+}
+
+p, blockquote {
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+
+
+h1 {
+  font-size: 5.653rem;
+  margin-top: 2em;
+}
+
+h2 {
+  font-size:1.999rem;
+  margin:3em 0 1em 0;
+}
+
+blockquote {
+  font-size: 1.414rem;
+  font-style: italic;
+  hanging-punctuation: first;
+  text-indent: -0.75rem;
+}
+
+cite {
+  font-size: 0.8em;
+  color: #333333;
+  font-style: normal;
+}
+
+header h2 {
+  font-size: 2.827rem;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+
+header p {
+  font-size: 1.3rem
+}
+
+/*-- styling links, below is bottom links--*/
+a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fc8ebf;
+  border-bottom: 2px dotted;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  background: #634F5F;
+  padding: 2em 0;
+  font-size: 0.75rem;
+}
+
+nav ul {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 20px;
+  color: #f7f7f7
+}
+
+/*--links at top of page --*/
+nav a {
+  color: #f7f7f7;
+}
+
+nav a:hover {
+  border-bottom: none;
+  color: #fc8ebf;
+  transition: all 0.3s ease-in-out
+}
+
+hr {
+  margin: 100px 0;
+  height: 1px;
+  background-color: #f7f7f7;
+  color: #f7f7f7;
+  border: 0 none;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  margin:6em 0 3em 0
+}
+
+body {
+ background-image: url("https://images.pexels.com/photos/60644/nile-crocodile-crocodylus-niloticus-zoo-60644.jpeg?cs=srgb&dl=pexels-pixabay-60644.jpg&fm=jpg");
+ background-color: #cccccc;
+}
+
+.boxed {
+  background-color: #333333;
+  border: 1px solid #333333;
+  opacity: 97%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.gridimge{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
