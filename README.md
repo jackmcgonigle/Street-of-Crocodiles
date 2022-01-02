@@ -1,2 +1,1 @@
-
-[Bruno Schultz](https://jackmcgonigle.github.io/Bruno/The Street of Crocodiles.html)
+[The Street-of-Crocodiles](https://jackmcgonigle.github.io/Bruno/crocodiles.html)
