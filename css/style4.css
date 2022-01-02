@@ -159,9 +159,15 @@ img {
   display: block;
   padding: 0;
   max-width: 100%;
+  border-radius: 10px;
 }
 
 .pears {
+
+}
+
+.linen {
+
 
 }
 
@@ -174,7 +180,9 @@ img {
 }
 
 
-.gridimge{
+.gridimage{
+  margin: 4em 0;
+  max-width: 100%;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
