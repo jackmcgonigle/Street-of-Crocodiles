@@ -2,7 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-size: 100%;
+  font-size: 105%;
   font-weight: normal;
   line-height: 1em;
 }
@@ -31,12 +31,14 @@ h1, h2, blockquote {
 p, blockquote {
   margin-bottom: 1.5rem;
   line-height: 1.4;
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
 
 
 h1 {
   font-size: 5.653rem;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .lower {
@@ -148,7 +150,7 @@ nav a:hover {
 }
 
 hr {
-  margin: 100px 0;
+  margin: 10px 0;
   height: 1px;
   background-color: #f7f7f7;
   color: #f7f7f7;
@@ -169,6 +171,9 @@ img {
 .linen {
 
 
+}
+.flower {
+  padding-top: 3em;
 }
 
 .boxed {
@@ -191,7 +196,13 @@ img {
 footer {
   text-align: center;
   font-size: 0.8rem;
-  margin:6em 0 3em 0;
+  margin:5em 0 4em 0;
+}
+
+.dark {
+  background-color: #000000;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 footer p {
